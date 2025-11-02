@@ -57,21 +57,7 @@ cd Project_PlagiGuard
 python install.py
 
 ```
-
-## POST - Installation (One Command)
-
-
-### Run the Installer
-
-```bash
-python install.py
-```
-
-> This will:
-> - Install all required packages
-> - Download NLTK data
-> - Create `install.sh` for future use
-
+For Step 3 run in bash
 **Or double-click `install.py`** (Windows/macOS)
 
 ---
