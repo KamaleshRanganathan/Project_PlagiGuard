@@ -31,18 +31,35 @@ Fully **cross-platform** (Windows, macOS, Linux) and designed for **teachers and
 
 ```
 PlagiGuard/
-├── plagarism_checker_finalized.py   ← Main script
+├── plag_check.py   ← Main script
 ├── install.py                       ← One-click installer
 ├── install.sh                       ← Auto-created (optional)
 ├── reports/                         ← Auto-generated
 └── your_submissions/                ← Your folder to scan
 ```
 
-> **Important**: Keep `plagarism_checker_finalized.py` and `install.py` in the **same folder**.
+> **Important**: Keep `plag_check.py` and `install.py` in the **same folder**.
 
 ---
 
-## Installation (One Command)
+## Installation
+
+## Get the Code from GitHub
+
+```bash
+# 1. Clone the repository
+git clone https://github.com/KamaleshRanganathan/Project_PlagiGuard.git
+
+# 2. Enter the project folder
+cd Project_PlagiGuard
+
+# 3. Install everything (packages + NLTK data)
+python install.py
+
+```
+
+## POST - Installation (One Command)
+
 
 ### Run the Installer
 
@@ -74,7 +91,7 @@ your_submissions/
 ### Step 2: Run PlagiGuard
 
 ```bash
-python plagarism_checker_finalized.py your_submissions/ --export report.csv --visualize
+python plag_check.py your_submissions/ --export report.csv --visualize
 ```
 
 ### Available Options
@@ -124,7 +141,7 @@ chmod +x install.sh
 
 ```
 PlagiGuard/
-├── plagarism_checker_finalized.py
+├── plag_check.py
 ├── install.py
 ├── README.md
 └── your_submissions/   ← Add your files here
